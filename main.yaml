@@ -3,3 +3,7 @@
   become: yes
   roles:
   - "{{ compinent }}"
+
+
+
+  # ansible-playbook -i inventory.ini main.yaml -e "component=mongodb"
