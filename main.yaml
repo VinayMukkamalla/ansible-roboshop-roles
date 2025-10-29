@@ -1,8 +1,8 @@
-- name: "{{ compinent }} server configuration "
-  hosts: "{{ compinent }}"
+- name: "{{ component }} server configuration "
+  hosts: "{{ component }}"
   become: yes
   roles:
-  - "{{ compinent }}"
+  - "{{ component }}"
 
 
 
