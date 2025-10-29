@@ -6,5 +6,5 @@ MYSQL_HOST: mysql.vinaymukkamalla.fun
 RABBITMQ_HOST: rabbitmq.vinaymukkamalla.fun
 USER_HOST: user.vinaymukkamalla.fun
 SHIPPING_HOST: shipping.vinaymukkamalla.fun
-PAYMENT_HOST: pyment.vinaymukkamalla.fun
+PAYMENT_HOST: payment.vinaymukkamalla.fun
 
