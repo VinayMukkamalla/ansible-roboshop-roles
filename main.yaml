@@ -1,5 +1,5 @@
-- name: mongodb server configuration
-  hosts: mongodb
+- name: "{{ compinent }} server configuration "
+  hosts: "{{ compinent }}"
   become: yes
   roles:
-  - mongodb
+  - "{{ compinent }}"
