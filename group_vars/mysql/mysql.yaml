@@ -1,6 +1,8 @@
 MYSQL_ROOT_PASSWORD: "{{ lookup('amazon.aws.aws_ssm', '/roboshop/mysql/mysql_root_password', region='us-east-1', decrypt=True ) }}"
 
 
+# we have recently changed from ansible vault to aws ssm to manage passwords efficiently 
+
 # $ANSIBLE_VAULT;1.1;AES256
 # 33613930663066373331666133656336353934393666393530396661376366656635376434653066
 # 3462353162656331323439646134633461613330643461380a326561653334656131396536353762
