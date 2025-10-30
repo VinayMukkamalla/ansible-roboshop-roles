@@ -14,7 +14,7 @@ compose:
   ansible_host: private_ip_address
 keyed_groups:
   - key: tags.Name    # frontend
-    prefix: "dynamic" # dynamic_frontend
+    prefix: "dynamic" # dynamic_frontend  we should give this name group name in play book frontend playbook hosts: dynamic_frontend
     separator: "_"    # _
 
 
