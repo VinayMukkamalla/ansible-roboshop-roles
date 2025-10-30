@@ -11,8 +11,8 @@
   ansible.builtin.include_role: # include will include the task but will not respect the tags we have to go to common role and there also we should use tags to respective tags that we want
     name: common
     tasks_from: nodejs.yaml
-  tags:                # include import tags -t deployment
-  - deployment
+  # tags:                # include import tags -t deployment
+  # - deployment
 
 - name: copy mongo.repo
   ansible.builtin.copy:
