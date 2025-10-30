@@ -14,3 +14,5 @@
 - name: install npm dependencies
   community.general.npm:
     path: /app
+  tags:                # include import tags -t deployment
+  - deployment

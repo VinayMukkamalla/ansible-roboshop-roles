@@ -6,12 +6,12 @@
   - deployment
 
 
-- name: app setup
+- name: nodejs installation 
   #ansible.builtin.import_role:
-  ansible.builtin.include_role: # include will include the task but will not respect the tags 
+  ansible.builtin.include_role: # include will include the task but will not respect the tags we have to go to common role and there also we should use tags to respective tags that we want
     name: common
     tasks_from: nodejs.yaml
-  tags:
+  tags:                # include import tags -t deployment
   - deployment
 
 - name: copy mongo.repo
