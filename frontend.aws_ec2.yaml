@@ -9,3 +9,14 @@ hostnames:
   - private-ip-address
 compose:
   ansible_host: private_ip_address
+keyed_groups:
+  - key: tags.Name    # frontend
+    prefix: "dynamic" # dynamic_frontend
+    separator: "_"    # _
+
+
+
+
+
+# commands to check inventory ( dynamically created ip address -- instances)
+# ansible-inventory -i frontend.aws_ec2.yaml  -- graph 
