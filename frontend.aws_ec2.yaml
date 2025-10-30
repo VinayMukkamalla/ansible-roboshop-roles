@@ -1,4 +1,4 @@
-plugin: amazon.aws.aws_ec2
+plugin: amazon.aws.aws_ec2  # dynamic inventory plugin  to connect with aws and fetch ip address of ec2 instances 
 regions:
 - us-east-1
 filters:
