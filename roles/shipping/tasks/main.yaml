@@ -31,7 +31,7 @@
   - /app/db/app-user.sql
   - /app/db/master-data.sql
 
-- name: app setup
+- name: systemd setup
   ansible.builtin.import_role:
     name: common
     tasks_from: system-setup.yaml
