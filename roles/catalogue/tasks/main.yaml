@@ -3,7 +3,7 @@
     name: common
     tasks_from: app-setup.yaml
   tags:
-  - deployement
+  - deployment
 
 
 - name: app setup
@@ -11,7 +11,7 @@
     name: common
     tasks_from: nodejs.yaml
   tags:
-  - deployement
+  - deployment
 
 - name: copy mongo.repo
   ansible.builtin.copy:
@@ -41,4 +41,4 @@
     name: common
     tasks_from: system-setup.yaml
   tags:
-  - deployement
+  - deployment
