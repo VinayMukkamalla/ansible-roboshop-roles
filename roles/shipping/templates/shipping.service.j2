@@ -7,8 +7,8 @@ User=roboshop
 Environment=CART_ENDPOINT={{ CART_HOST }}:8080
 Environment=DB_HOST={{ MYSQL_HOST }}
 // highlight-end
-ExecStart=/bin/java -jar /app/Shipping.jar
-SyslogIdentifier=Shipping
+ExecStart=/bin/java -jar /app/shipping.jar
+SyslogIdentifier=shipping
 
 [Install]
 WantedBy=multi-user.target
