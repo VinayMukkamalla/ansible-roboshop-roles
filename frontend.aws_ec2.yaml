@@ -5,9 +5,9 @@ filters:
   tag:Name: frontend
   instance-state-name: running
   #you can add more parameters
-filters:
-  tag:Name: catalogue
-  instance-state-name: running
+# filters:
+#   tag:Name: catalogue
+#   instance-state-name: running
 hostnames:
   - private-ip-address
 compose:
